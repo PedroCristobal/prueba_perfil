@@ -7,7 +7,7 @@ class Principal extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: Text(
-        'Ya corregimos el auto crlf',
+        'Ya corregimos el auto crlf y probamos desde invitado',
         style: TextStyle(
           fontSize: 40
         ),

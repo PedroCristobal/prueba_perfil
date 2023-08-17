@@ -5,6 +5,13 @@ class Principal extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(child: Text('hola'),);
+    return Container(
+      child: Text(
+        'Ya corregimos el auto crlf',
+        style: TextStyle(
+          fontSize: 40
+        ),
+      ),
+    );
   }
 }
